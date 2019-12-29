@@ -1,0 +1,41 @@
+body {
+    margin: auto;
+}
+
+.navbarBackground {
+    background-color: blue;
+}
+
+.navBar {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 230px;
+    margin-right: 230px;
+}
+
+.navBar a {
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+.navBar a:hover {
+    color: white;
+    background-color: grey;
+}
+
+.titling1 {
+    text-align: center;
+    padding-top: 2vw;
+}
+
+.titling2 {
+    text-align: center;
+    margin-top: -20px;
+}
+
+.headerTagline {
+    text-align: center;
+}
