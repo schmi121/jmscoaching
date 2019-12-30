@@ -122,7 +122,8 @@ html, body {
     font-family: arial, sans-serif;
     border-collapse: collapse;
     margin: 5px;
-
+    max-width: 300px;
+    min-width: 218px;
   }
   
   td, th {
