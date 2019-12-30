@@ -15,9 +15,9 @@ html, body {
 
 .navBar {
     display: flex;
-    justify-content: space-around;
-    margin: auto;
-    width: fit-content;
+    justify-content: space-evenly;
+    margin-left: 20%;
+    margin-right: 18%;
 }
 
 .navBar a {
@@ -111,16 +111,18 @@ html, body {
 .flexTable {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-around;
     margin-left: 15%;
     margin-right: 15%;
-
+    flex-flow: wrap;
+    padding: 5px;
 }
 
 .table1, .table2 {
     font-family: arial, sans-serif;
     border-collapse: collapse;
-    margin: auto;
+    margin: 5px;
+
   }
   
   td, th {
@@ -154,8 +156,8 @@ html, body {
     text-align: center;
     font-size: 20px;
     padding-top: 15px;
-    padding-left: 5%;
-    padding-right: 5%;
+    padding-left: 3%;
+    padding-right: 3%;
 }
 
 .buyNow {
@@ -165,8 +167,8 @@ html, body {
     text-align: center;
     font-size: 20px;
     padding-top: 15px;
-    padding-left: 5%;
-    padding-right: 5%;
+    padding-left: 3%;
+    padding-right: 3%;
 }
 
 .aboutContent {
