@@ -1,0 +1,115 @@
+html, body { 
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html {
+  overflow-y: scroll;
+}
+
+.navbarBackground {
+    background-color: grey;
+    position: relative;
+    width: auto; 
+}
+
+.navBar {
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.navBar a {
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+.titlingService1 {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.serviceContent {
+    margin-left: 13%;
+    margin-right: 13%;
+    width: fit-content;
+    text-justify: auto;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 15px;
+    padding-left: 5%;
+    padding-right: 5%;;
+}
+
+
+.flexTable {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 15%;
+    margin-right: 15%;
+    flex-flow: wrap;
+    padding: 5px;
+}
+
+.table1, .table2 {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    margin: 5px;
+    max-width: 300px;
+    min-width: 218px;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 10px;
+  }
+
+/*.service-grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 10px;
+    padding: 10px;
+    margin-right: 10%;
+    margin-left: 10%;
+    text-align: center;
+  }
+  
+  .grid-container > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    font-size: 30px;
+    justify-items: center;
+  }
+  */
+
+.narrativeCost {
+    margin: auto;
+    width: fit-content;
+    text-justify: auto;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 15px;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+.buyNow {
+  margin: auto;
+    width: fit-content;
+    text-justify: auto;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 15px;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-bottom: 15px;
+}
